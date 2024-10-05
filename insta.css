@@ -1,0 +1,329 @@
+body{
+    overflow-x: hidden;
+}
+
+.mainbody{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+     width: 100%;
+     height: auto;
+    
+}
+.leftbox{
+    height:1000px;
+    width: 16%;
+    background-color:black;
+    float: left;
+    position: fixed;
+    border-right-color: antiquewhite;
+    border-right-width: 1px;
+    border-right-style: outset;
+}
+.contentbox{
+    
+    width: 85%;
+    height: auto;
+    position: relative;
+    left: 16%;
+}
+.profilehead1{
+    width: 25%;
+    height: 300px;
+    background-color:black;
+    float: left;
+    position: relative;
+    left: 10%;
+}
+.inner1{
+    width: 36px;
+    height: 36px;
+    padding: 50px;
+    border-radius: 100px;
+    margin: 50px 40px 40px 120px;
+    background-image: url(photos/free-palestine-movement-isolated-in-white-vector-49073694.jpg);
+    background-repeat: no-repeat;
+    background-size: 140px;
+    background-position: center;
+    background-attachment:scroll ;
+
+
+
+}
+.inner1:hover{
+    cursor: pointer;
+}
+.profilehead2{
+    width: 75%;
+    height: 300px;
+    float: left;
+    background-color: black ;
+    position: relative;
+    left: 10%;
+   
+}
+.headtable{
+    padding-top: 30px;
+}
+.username{
+    font-size: 22px;
+    text-align: center;
+    width: 50px;
+    color: azure;
+    font-weight: lighter;
+}
+.username:hover{
+    cursor: pointer;
+}
+.profilebuttons{
+    width: 100px;
+    height: 33px;
+    text-align: center;
+    background-color: #3b3b3b;
+    color: whitesmoke;
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: #3b3b3b;
+    margin-left: 3px;
+}
+.profilebuttons:hover{
+    background-color: #3c3838c4;
+    cursor: pointer;
+}
+.td1{
+     padding-left: 30px;
+    width:40%;
+     
+}
+.headtext{
+    color: azure;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 30px;
+     
+}
+.ptext{
+    color: azure;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.leftboxli{
+    margin-top: 30px;
+}
+.leftboxul{
+    color: aliceblue;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    list-style: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    padding: 0;
+    
+   
+    
+}
+.downmore{
+    color: aliceblue;
+    margin-top: 60px;
+    font-size: 15px;
+    list-style: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    padding: 0;
+    margin-left: 10px;
+}
+.downmore:hover{
+    background-color: #3b3b3b ;
+    cursor:pointer;
+}
+.leftboxul:hover{
+    background-color: #3b3b3b ;
+    cursor:pointer;
+     
+}
+ul{
+    margin-top: 125px;
+    margin-left: -10px;
+   
+}
+.liimage{
+    width: 25px;
+    height: auto;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    padding-right: 25px;
+    border-radius: 5px;
+     
+}
+.moreimg{
+    width: 25px;
+    height: auto;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    padding-right: 25px;
+
+}
+.dot{
+    height: 85px;
+    width: 85px;
+    display: inline-block;
+    background-color: #d2b8b8;
+    border-radius: 50px;
+    margin-left: 35px;
+    border: double;
+    background-image: url(photos/20240521_202215_0000.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 98px;
+}
+.dot:hover{
+  cursor: pointer;
+}
+
+.highlights{
+    width: 77%;
+    height: 150px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 12%;
+    border-bottom: solid; 
+    border-width: 1px;
+    border-left: 10px;
+    border-bottom-style: outset;
+    border-bottom-color:#d2b8b8;
+}
+ 
+
+.nav{
+    width: 100%;
+    height: 50px;
+    float: left;
+    position: relative;
+    left: 0%;
+    text-align: -webkit-center;
+}
+.linav{
+    width: 36%;
+    height: 50px;
+    display: flex;
+    margin: 0;
+    text-align: center;
+} 
+.ulnav{
+    margin: 0;
+    width: 109px;
+    padding: 0;
+    color:#f0f8ff8c;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+
+}
+.ulnav:hover{
+    cursor: pointer;
+}
+.navicon{
+    margin-right: 5px;
+    width: 15px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    color: #f0f8ff8c;
+} 
+.maingrid{
+    width: 90%;
+    height: auto;
+    position: relative;
+    left: 100px;
+    float: left;
+}
+.postdiv{
+    width: 310px;
+    height: 310px;
+    float: left;
+    margin-left: 5px;
+    position: relative;
+    left: 40px;
+    margin-top: 5px;
+} 
+.gridimage{
+    width: 100%;
+    height: 310px;
+}
+.gridimage:hover{
+    cursor: pointer;
+    
+}
+.gridvid{
+    height: 310px;
+    width: 100%;
+ 
+}    
+.gridvid:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 84%;
+    float: left;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left:16%;
+} 
+.footertext{
+    color: #f0f8ff8c;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-indent: 40px;
+    word-spacing: 10px;
+    margin-top: 100px;
+}
+.footertext:hover{
+   cursor: pointer;
+   
+}
+.foottext2{
+    color: #f0f8ff8c;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-indent: 40px;
+    word-spacing: 10px;
+    margin-top: 10px;
+}
+.foottext2:hover{
+    cursor: pointer;
+    
+ }
+.logodiv{
+    
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    top: 30px;
+}
+.logoimg{
+    width: 60%;
+    height: 60px;
+    margin-left: 20px;
+}
+.logoimg:hover{
+    cursor: pointer;
+}
